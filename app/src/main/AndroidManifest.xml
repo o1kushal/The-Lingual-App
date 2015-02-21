@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mycompany.deep.p1" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DoteliData"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOTELIDATA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Menu" android:label="p1"></activity>
+        <activity android:name=".Email" android:label="p1"></activity>
+        <activity android:name=".Doteli" android:label="p1"></activity>
+        <activity android:name=".Practice" android:label="p1"></activity>
+        <activity android:name=".Alphabets" android:label="p1"></activity>
+        <activity android:name=".Languages" android:label="p1"></activity>
+        <activity android:name=".Contribute" android:label="p1"></activity>
+        <activity android:name=".Contributes" android:label="p1"></activity>
+        <activity android:name=".Wordsdis" android:label="p1"></activity>
+        <activity android:name=".Literature" android:label="p1"></activity>
+    </application>
+
+</manifest>

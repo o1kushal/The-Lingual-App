@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:id="@+id/tablelayout1">
+        <TableRow >
+            <TextView android:text="ENGLISH" android:layout_weight="1"
+                android:layout_height="fill_parent" android:layout_gravity="center"
+                android:layout_width="fill_parent"/>
+            <TextView android:text="UNICODE" android:layout_weight="1" android:layout_gravity="center"
+                android:layout_height="fill_parent" android:layout_width="fill_parent"/>
+            <TextView android:text="डोटेली" android:layout_weight="1" android:layout_gravity="center"
+                android:layout_height="fill_parent" android:layout_width="fill_parent"/>
+        </TableRow>
+        <TableRow>
+            <EditText android:hint="ENGLISH" android:layout_weight="1"
+                android:layout_height="fill_parent" android:id="@+id/eteng"
+                android:layout_width="fill_parent"/>
+            <EditText android:hint="UNICODE" android:layout_weight="1" android:id="@+id/etuni"
+                android:layout_height="fill_parent" android:layout_width="fill_parent"/>
+            <EditText android:hint="डोटेली" android:layout_weight="1" android:id="@+id/etdot"
+                android:layout_height="fill_parent" android:layout_width="fill_parent"/>
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:id="@+id/bviewdata"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/bsavedata"/>
+
+
+
+</LinearLayout>
