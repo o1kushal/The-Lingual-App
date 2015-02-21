@@ -1,3 +1,1 @@
-# The-Lingual-App
-Langauge app
-hello
+Our Yomari code camp project
